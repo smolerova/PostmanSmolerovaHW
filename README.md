@@ -340,7 +340,7 @@ pm.test("Проверить, что параметр qa_salary_after_3.5_years �
 pm.test("Проверить, что в параметре person, 1-й элемент из u_name равен salary из request (salary забрать из request.)", function () {
     pm.expect(jsonData.person.u_name[1]).to.eql(+reqData.salary);
     });
- ```
+```
 20. Проверить, что что параметр u_age равен age из request (age забрать из request.)
 ```
 pm.test("Проверить, что что параметр u_age равен age из request (age забрать из request.)", function () {
