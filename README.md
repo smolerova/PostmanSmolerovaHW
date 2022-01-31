@@ -68,7 +68,6 @@ pm.test("Проверить, что salary в ответе равно salary в 
     pm.expect(jsonData.salary).to.eql(+reqData.salary);
 });
 ```
-
 11. Вывести в консоль параметр family из response.
 ```
 console.log(jsonData.family);
@@ -79,7 +78,6 @@ pm.test("Проверить что u_salary_1_5_year в ответе равно 
     pm.expect(jsonData.family.u_salary_1_5_year).to.eql(+request.data.salary*4);
 });
 ```
-
 http://162.55.220.72:5005/object_info_3
 1. Отправить запрос.
 2. Статус код 200
